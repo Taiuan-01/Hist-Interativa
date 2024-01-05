@@ -1,0 +1,33 @@
+body{
+	background-image: url('https://i.pinimg.com/originals/d0/83/1d/d0831d1fdc4089ecdbfdd4b4c1106b2b.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+#texto::first-letter {
+    font-size: 5rem;
+    font-weight: bold;
+    float: left;
+    margin: 3px 10px;
+}
+.baixo{
+  background-color: green;
+  position: absolute;
+  margin-right: 10px;
+  float: left;
+  shape-outside: square;
+  width: 300px;
+  height: 300px;
+}
+.cima{
+  background-color: blue;
+  position: relative;
+  margin-right: 10px;
+  float: left;
+  shape-outside: square;
+  width: 300px;
+  height: 300px;
+}
+.cima:hover{
+  opacity: 0;
+}
